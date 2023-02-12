@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="3">
+    <test verbose="2" preserve-order="true"
+          name="/Users/APPLE/IdeaProjects/TestNG/src/test/java/techproed/tests/day25_paralleltesting">
+        <classes>
+            <class name="techproed.tests.day25_paralleltesting.ManagerLoginTest">
+                <methods>
+                    <include name="customerLogin"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day25_paralleltesting.SearchItems">
+                <methods>
+                    <include name="googleSearch"/>
+                    <include name="ebaySearch"/>
+                    <include name="amazonSearch"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day25_paralleltesting.TechProEducationTest">
+                <methods>
+                    <include name="lmsPageNavigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

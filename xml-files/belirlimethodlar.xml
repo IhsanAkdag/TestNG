@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/APPLE/IdeaProjects/TestNG/src/test/java/techproed/tests/day19/TestNGAnnotations.java">
+        <classes>
+            <class name="techproed.tests.day19.TestNGAnnotations">
+                <methods>
+                    <include name="test7"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

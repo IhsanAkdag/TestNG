@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+
+    <test name="Regression1">
+        <groups>
+            <run>
+                <include name="regression-tests"/> <!--  @Test(groups = "regression-tests") yazmali-->
+            </run>
+        </groups>
+    </test>
+
+    <packages>
+        <package name="techproed.*"></package>  <!--    TUM PROJEDEKI KLASORLERI ARA VE "regression-tests" isimli @Test caseleri calistir-->
+    </packages>
+
+</suite>
+
+

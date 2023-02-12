@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="techproed.utilities.Listeners"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="/Users/APPLE/IdeaProjects/TestNG/src/test/java/techproed/tests/day27_listeners/ListenersTest2.java">
+        <classes>
+            <class name="techproed.tests.day26_listeners.ListenersTest2">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                    <include name="test04"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

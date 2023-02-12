@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="minor regression" verbose="2" parallel="classes" thread-count="3">
+    <test name="Regression1">
+        <packages>
+            <package name="techproed.*"></package>
+        </packages>
+    </test>
+</suite>
