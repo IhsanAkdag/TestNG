@@ -8,7 +8,7 @@ import techproed.utilities.Driver;
 public class OpenSourcePage {
 //    page objelerini bu sinifta buluruz
 
-//    1.contructor (herbir page sinifi cons. ile baslamak zorunda
+//    1.contructor (herbir page sinifi cons. ile baslamak zorunda)
     public OpenSourcePage(){
 //        PageFactory seleniumdan gelen ve bu sayfa elementlerini (baslangic degeri vermek) intantiate etmek icin kullanilir
 //        Sayfa objeleri cagrildiginda null pointer exc alinmaz
